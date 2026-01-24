@@ -10,6 +10,12 @@ namespace when_do_backend.Models
         public int Id { get; set; }
         public string Name { get; set; }
         public string Description { get; set; }
+        public int Priority { get; set; }
+        public bool IsActive { get; set; }
+        public DateTime EffectiveFrom { get; set; }
+        public DateTime EffectiveTo { get; set; }
+        public DateTime CreatedAt { get; set; }
+        public DateTime UpdatedAt { get; set; }
 
     }
 }
